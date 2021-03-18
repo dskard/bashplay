@@ -3,6 +3,20 @@
 ## Examples
 
 ```bash
+$ ./params_play.sh -h
+usage: params_play.sh [options] positional_1 positional_2 [positional_3 ...]
+
+Play with argument parsing in bash.
+
+OPTIONS:
+
+-s <s-option>                   set the s variable to s-option
+-g <g-option>                   set the g variable to g-option
+-h                              Print this help message.
+-v                              Verbose
+```
+
+```bash
 $ ./params_play.sh a b c d
 
 s_option is 'more'
