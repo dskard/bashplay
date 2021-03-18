@@ -1,0 +1,2 @@
+# bashplay
+examples in bash
